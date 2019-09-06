@@ -2,7 +2,7 @@ json-rpc cli
 ------
 
 ```$xslt
-./rpc-cli call --url http://127.0.0.1:6791 --method eth_getBlock --param 17
+./rpc-cli call --url http://127.0.0.1:6791 --method eth_getBlock --param '["0x19"]'
 
 ./rpc-cli call --url http://127.0.0.1:6791 --method eth_getTransaction --param '["0x1234...222"]'
 
